@@ -1,0 +1,10 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "just an app with deps i guess",
+  "dependencies": {
+    "express": "^4.19.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.3.1"
+  }
+}
