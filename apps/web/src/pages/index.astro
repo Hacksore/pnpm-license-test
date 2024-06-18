@@ -1,5 +1,6 @@
 ---
 
+import json from '../__generated__/licenses.json'
 ---
 
 <html lang="en">
@@ -12,5 +13,6 @@
 	</head>
 	<body>
 		<h1>License Demo</h1>
+		<pre>{JSON.stringify(json, null, 2)}</pre>
 	</body>
 </html>
