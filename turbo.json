@@ -2,12 +2,32 @@
   "$schema": "https://turbo.build/schema.json",
   "tasks": {
     "start": {
-
+      "cache": false,
+      "dependsOn": [
+        "generate:licenses"
+      ]
     },
     "build": {
-      "dependsOn": ["^build"],
-      "inputs": ["$TURBO_DEFAULT$", ".env", ".env.*"],
-      "outputs": ["dist"]
+      "dependsOn": [
+        "generate:licenses",
+        "^build"
+      ],
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        ".env",
+        ".env.*"
+      ],
+      "outputs": [
+        "dist"
+      ]
+    },
+    "generate:licenses": {
+      "dependsOn": [
+        "^generate:licenses"
+      ],
+      "outputs": [
+        "./apps/web/__generated__/licenses.json"
+      ]
     }
   }
 }

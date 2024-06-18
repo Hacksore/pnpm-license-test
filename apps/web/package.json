@@ -5,6 +5,7 @@
   "scripts": {
     "start": "astro dev",
     "build": "astro check && astro build",
+    "generate:licenses": "node generate-licenses.js",
     "preview": "astro preview",
     "astro": "astro"
   },
