@@ -6,7 +6,7 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "clean": "rm -rf .vercel .turbo node_modules src/__generated__",
-    "test": "pwd && pnpm licenses --filter=app --prod --no-optional list --json",
+    "test": "pwd && pnpm --version && pnpm licenses --filter=app --prod --no-optional list --json",
     "generate:licenses": "node generate-licenses.js",
     "preview": "astro preview",
     "astro": "astro"
