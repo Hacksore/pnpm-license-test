@@ -2,9 +2,13 @@
 
 This app uses `pnpm` to generate license info from the `apps/app` application to a json file. The astro app (`apps/web`) will import the json file and render it.
 
-It seems to work without issues on this project but this PR is FUCKING cooked 😭.
-https://github.com/overlayeddev/overlayed/pull/103
+### Vercel build properties
+<img width="902" alt="image" src="https://github.com/Hacksore/pnpm-license-test/assets/996134/2e04deb5-350a-47a6-88f1-4d91b2aae416">
 
-
-no astro integ
-
+Current error:
+```json
+{
+  "code": "ERR_PNPM_MISSING_PACKAGE_INDEX_FILE",
+  "message": "Failed to find package index file for express@4.19.2, please consider running 'pnpm install'"
+}
+```
