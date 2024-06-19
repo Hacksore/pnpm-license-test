@@ -17,3 +17,8 @@ We've seen that you have to explicit set the output dir to `.vercel/output/stati
   "message": "Failed to find package index file for express@4.19.2, please consider running 'pnpm install'"
 }
 ```
+
+### Open vercel issue
+
+TODO: make one here
+https://github.com/vercel/vercel/blob/fd069f184d94a41cfcc427e8249418e122a4bf71/packages/frameworks/src/frameworks.ts#L274
