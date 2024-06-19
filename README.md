@@ -11,6 +11,8 @@ This app uses `pnpm` to generate license info from the `apps/app` application to
 We've seen that you have to explicit set the output dir to `.vercel/output/static` to make this work
 
 ### Error I've seen before
+
+If i push a commit vercel will error with this 😧
 ```json
 {
   "code": "ERR_PNPM_MISSING_PACKAGE_INDEX_FILE",
