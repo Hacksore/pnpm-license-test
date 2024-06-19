@@ -3,7 +3,8 @@
 This app uses `pnpm` to generate license info from the `apps/app` application to a json file. The astro app (`apps/web`) will import the json file and render it.
 
 ### Vercel build properties
-<img width="777" alt="image" src="https://github.com/Hacksore/pnpm-license-test/assets/996134/b28d4558-cc71-46f9-8b62-59f7867320cb">
+<img width="877" alt="image" src="https://github.com/Hacksore/pnpm-license-test/assets/996134/2c0969da-0d74-43cd-8e24-395f616ba39d">
+
 
 Current error:
 ```json
