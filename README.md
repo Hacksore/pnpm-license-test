@@ -5,3 +5,6 @@ This app uses `pnpm` to generate license info from the `apps/app` application to
 It seems to work without issues on this project but this PR is FUCKING cooked 😭.
 https://github.com/overlayeddev/overlayed/pull/103
 
+
+no astro integ
+
