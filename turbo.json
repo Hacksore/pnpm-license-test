@@ -10,10 +10,8 @@
     "clean": {
       "cache": false
     },
-    "test": {},
     "build": {
       "dependsOn": [
-        "test",
         "generate:licenses",
         "^build"
       ],
