@@ -5,6 +5,7 @@
   "scripts": {
     "start": "astro dev",
     "build": "astro check && astro build",
+    "clean": "rm -rf .vercel .turbo node_modules src/__generated__",
     "generate:licenses": "node generate-licenses.js",
     "preview": "astro preview",
     "astro": "astro"

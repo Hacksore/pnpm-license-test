@@ -7,6 +7,9 @@
         "generate:licenses"
       ]
     },
+    "clean": {
+      "cache": false
+    },
     "build": {
       "dependsOn": [
         "generate:licenses",
