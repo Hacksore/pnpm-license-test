@@ -12,13 +12,8 @@
         "generate:licenses",
         "^build"
       ],
-      "inputs": [
-        "$TURBO_DEFAULT$",
-        ".env",
-        ".env.*"
-      ],
       "outputs": [
-        "dist"
+        ".vercel/output/static/**"
       ]
     },
     "generate:licenses": {
