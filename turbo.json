@@ -16,7 +16,7 @@
         "^build"
       ],
       "outputs": [
-        ".vercel/output/static/**"
+        ".vercel/output/static"
       ]
     },
     "generate:licenses": {
@@ -24,7 +24,7 @@
         "^generate:licenses"
       ],
       "outputs": [
-        "./apps/web/__generated__/licenses.json"
+        "./apps/web/src/__generated__/licenses.json"
       ]
     }
   }
